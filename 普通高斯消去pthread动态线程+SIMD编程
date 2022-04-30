@@ -4,8 +4,6 @@
 #include<pthread.h>
 #include <malloc.h>
 #include <semaphore.h>
-#include<unistd.h>
-#include <cstdlib>
 using namespace std;
 const int worker_count=7;
 const int N=4000;
