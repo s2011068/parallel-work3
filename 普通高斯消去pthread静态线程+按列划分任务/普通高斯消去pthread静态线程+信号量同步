@@ -4,7 +4,7 @@
 #include <semaphore.h>
 using namespace std;
 #define NUM_THREADS 7
-const int N=10;
+const int N=4000;
 float m[N][N];
 void m_reset()
  {
